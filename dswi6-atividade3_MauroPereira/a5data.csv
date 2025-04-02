@@ -1,0 +1,5 @@
+Atividade. Utilize para cada um dos códigos de exemplo de leitura de arquivo apresentados, transforme cada um em módulo. 
+ Formas de ler arquivos:
+  • de uma só vez 
+  • por meio de um fluxo de dados (stream) 
+  • com a API de baixo-nível (controlar exatamente quais bytes você lê de um arquivo e quando você os lê)

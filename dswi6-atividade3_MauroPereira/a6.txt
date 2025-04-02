@@ -1,0 +1,3 @@
+Criado o programa javascript que receba como argumento no comando “node meuScript.js meuarquivo.txt”.
+O programa lê o arquivo linha por linha e apresenta no console. 
+Dicas: Pesquisado sobre o módulo “readline” e integrado com o módulo “fs” para ler linha à linha.
