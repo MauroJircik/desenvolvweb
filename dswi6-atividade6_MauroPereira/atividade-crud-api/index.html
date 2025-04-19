@@ -1,0 +1,34 @@
+<!--
+  IFSP - Campus Bragança Paulista
+
+    Desenvolv. de Sistemas WEB
+
+Mauro Sérgio JAMRL Pereira BP3032116
+
+   Participação 6 - Atividade 1
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 6</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page">
+    <div class="crud">
+        <div class="crud__controls">
+            <button class="crud__button" onclick="getAllPosts()">GET - Todos os Posts</button>
+            <input type="number" class="crud__input" id="postIdInput" placeholder="ID do Post" />
+            <button class="crud__button" onclick="getPostById()">GET - Post por ID</button>
+            <button class="crud__button" onclick="createPost()">POST - Criar Post</button>
+            <button class="crud__button" onclick="updatePost()">PUT - Atualizar Post (ID 1)</button>
+            <button class="crud__button" onclick="deletePost()">DELETE - Deletar Post (ID 1)</button>
+        </div>
+        <pre class="crud__result" id="result"></pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
